@@ -1,8 +1,8 @@
 package textadventure
 
-open class IngameCharacter(maxhp: Int, hp: Int, dmg: Int) {
+open class IngameCharacter(maxhp: Int, dmg: Int) {
     var maxhp: Int = maxhp
-    var hp: Int = hp
+    var hp: Int = maxhp
     var dmg: Int = dmg
 
     fun isDead(): Boolean {
